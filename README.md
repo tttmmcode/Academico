@@ -1,49 +1,37 @@
 # Academico
 
-## 📚 Project Description
+Academico is an AI-powered study tool that instantly generates quizzes, practice tests, and explanations for any subject. It’s built for students who want fast, focused, customizable study materials without the clutter of large chatbots or the need for external databases.
 
-Academico is a lightweight, AI‑powered study app that instantly generates quizzes, practice tests, and explanations for any subject. It’s built for students who want fast, focused, and effective studying without clutter, distractions, or complicated tools.
+## Project Description
 
-The app turns any topic into a full review session—multiple‑choice questions, written‑response prompts, and AI‑generated feedback—helping users actually understand what they’re learning instead of just memorizing.
+Academico helps students study more efficiently by letting them create multiple-choice quizzes, written-response questions, flashcards, and detailed explanations based on any topic they enter. The app runs entirely in Firebase Studio, keeping everything simple, responsive, and easy to launch.
 
----
+The purpose of Academico is to give students a clean, accessible system where they can review content, test their understanding, and get instant feedback—all in one place.
 
-## 🚀 How to Use the App
+## How to Use the App
 
-1. **Open Academico** and type any study request. Examples:
+1. Open Academico in your browser.
+2. Enter any topic or prompt. Example: "Generate a 25-question quiz for my AP Human Geography exam."
+3. Academico will instantly generate:
 
-   * “Generate a 25‑question Algebra 1 review.”
-   * “Create a practice test for the AP Human Geography Unit 3 exam.”
-   * “Make 10 flashcards about mitosis vs. meiosis.”
-2. Academico instantly generates:
-
-   * Custom quizzes and tests
+   * Multiple-choice questions
+   * Written-response questions
    * Answer keys
-   * Written explanations
-3. Review your answers and read the AI feedback to deepen your understanding.
+   * Explanations and feedback
+4. Press "New Quiz" to generate another set, or adjust the prompt for a different subject.
+5. No login, no database, no setup required.
 
-The entire experience is simple, direct, and fast—perfect for studying at home, school, or on the go.
+## How to Launch Locally 
 
----
+1. Open Firebase Studio.
+2. Upload all project files (index.html, script.js, styles.css) into the main project folder.
+3. Click **Run** to launch the app.
+4. The live preview window will display Academico, ready for use.
 
-## 💻 How to Launch the Code Locally 
+## Issues and Challenges 
 
-1. Clone the repository:
+* Designing a system that feels AI-powered without external APIs.
+* Balancing simplicity with multiple question types.
+* Ensuring quizzes generate quickly and consistently within local execution.
 
-   ```bash
-   git clone https://github.com/tttmmcode/Academico
-   ```
-2. Open the project in Firebase Studio or your preferred environment.
-3. Run the local preview environment (Firebase Hosting or local emulator).
-4. The app runs entirely client‑side—no external APIs or database required.
-
----
-
-## ⚠️ Issues I Ran Into 
-
-* Designing dynamic quiz generation **without relying on APIs** was challenging—everything had to work offline.
-* Creating a clean UI that handled both written and multiple‑choice questions smoothly required multiple iterations.
-* Keeping performance fast on all devices while still generating long quizzes took optimization work.
-
----
-
+Academico is designed to be fast, simple, and effective—a tool that helps students at any grade level study with confidence and clarity.
