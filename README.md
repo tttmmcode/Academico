@@ -1,97 +1,49 @@
 # Academico
-Academico is a smart, interactive study app designed to make learning easier, faster, and more personal. It instantly creates custom quizzes, practice tests, and clear explanations for any topic — helping students actually understand what they’re learning, rather than just memorizing it.
+
+## 📚 Project Description
+
+Academico is a lightweight, AI‑powered study app that instantly generates quizzes, practice tests, and explanations for any subject. It’s built for students who want fast, focused, and effective studying without clutter, distractions, or complicated tools.
+
+The app turns any topic into a full review session—multiple‑choice questions, written‑response prompts, and AI‑generated feedback—helping users actually understand what they’re learning instead of just memorizing.
 
 ---
 
-## ✨ Overview
+## 🚀 How to Use the App
 
-Many students waste time searching for good study materials or trying to create their own. Academico addresses this by providing learners with a simple, focused tool that can generate practice questions, explanations, and quick reviews on the spot.
+1. **Open Academico** and type any study request. Examples:
 
-Students type in any topic, and the app instantly:
+   * “Generate a 25‑question Algebra 1 review.”
+   * “Create a practice test for the AP Human Geography Unit 3 exam.”
+   * “Make 10 flashcards about mitosis vs. meiosis.”
+2. Academico instantly generates:
 
-* Creates custom quizzes and practice tests
-* Generates clear explanations
-* Helps students review, test themselves, and understand concepts more deeply
+   * Custom quizzes and tests
+   * Answer keys
+   * Written explanations
+3. Review your answers and read the AI feedback to deepen your understanding.
 
-Academico keeps studying efficient, organized, and distraction-free.
-
----
-
-## ⚙️ App Architecture
-
-```
-src/
-├── main.dart                   → App entry point
-├── screens/
-│   ├── home_screen.dart        → Main UI and topic input
-│   ├── quiz_screen.dart        → Generated quizzes and feedback
-│   └── review_screen.dart      → Explanations and learning content
-├── widgets/
-│   ├── question_card.dart      → Quiz question UI
-│   └── result_summary.dart     → Score + explanation summary
-├── services/
-│   ├── generator.dart          → Quiz + explanation generation logic
-│   └── local_storage.dart      → Offline data storage
-├── theme/
-│   └── app_theme.dart          → Centralized styling
-└── utils/
-    └── formats.dart            → Helpers for formatting questions & results
-```
+The entire experience is simple, direct, and fast—perfect for studying at home, school, or on the go.
 
 ---
 
-## 🧠 How It Works
+## 💻 How to Launch the Code Locally 
 
-### Input → Generate → Learn
+1. Clone the repository:
 
-1. **Student enters a topic** (ex, “Photosynthesis”, “Algebra linear equations”).
-2. **Academico generates**:
-
-   * Multiple-choice questions
-   * Short-answer prompts
-   * Quick explanations
-3. **Students practice** in quiz mode or explanation mode.
-4. **All data stays local**, so the app works offline.
-
-### Under the Hood
-
-* **Frontend:** Flutter (Dart)
-* **Local Storage:** SharedPreferences / Hive
-* **State Management:** Provider
-* **Generation Engine:** Rule‑based + structured templates for fast, offline quiz creation
+   ```bash
+   git clone https://github.com/tttmmcode/Academico
+   ```
+2. Open the project in Firebase Studio or your preferred environment.
+3. Run the local preview environment (Firebase Hosting or local emulator).
+4. The app runs entirely client‑side—no external APIs or database required.
 
 ---
 
-## 💡 Key Features
+## ⚠️ Issues I Ran Into 
 
-* Instant quiz + explanation generation for any topic
-* Offline functionality—no external APIs required
-* Clean, distraction-free interface
-* Support for multiple question types
-* Progress feedback after each quiz
-* Consistent UI theme for easy reading
+* Designing dynamic quiz generation **without relying on APIs** was challenging—everything had to work offline.
+* Creating a clean UI that handled both written and multiple‑choice questions smoothly required multiple iterations.
+* Keeping performance fast on all devices while still generating long quizzes took optimization work.
 
 ---
 
-## 🚀 Future Plans (v2.0 Ideas)
-
-* Personalized learning tracking and adaptive quiz difficulty
-* Voice-assisted learning and spoken explanations
-* Gamification: badges, streaks, study goals
-* Expanded subject coverage across grade levels
-* Smarter explanations that adapt to a student’s learning style
-
----
-
-## 📦 Installation
-
-```
-flutter pub get
-flutter run
-```
-
----
-
-## 📄 License
-
-MIT License
