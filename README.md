@@ -1,11 +1,11 @@
 # Academico
-Academico is a smart, interactive study app designed to make learning easier, faster, and more personal. It instantly creates custom quizzes, practice tests, and clear explanations for any topic — helping students actually understand what they’re learning instead of just memorizing it.
+Academico is a smart, interactive study app designed to make learning easier, faster, and more personal. It instantly creates custom quizzes, practice tests, and clear explanations for any topic — helping students actually understand what they’re learning, rather than just memorizing it.
 
 ---
 
 ## ✨ Overview
 
-Many students waste time searching for good study materials or trying to create their own. Academico fixes that by giving learners a simple, focused tool that can generate practice questions, explanations, and quick reviews on the spot.
+Many students waste time searching for good study materials or trying to create their own. Academico addresses this by providing learners with a simple, focused tool that can generate practice questions, explanations, and quick reviews on the spot.
 
 Students type in any topic, and the app instantly:
 
@@ -44,7 +44,7 @@ src/
 
 ### Input → Generate → Learn
 
-1. **Student enters a topic** (ex: “Photosynthesis”, “Algebra linear equations”).
+1. **Student enters a topic** (ex, “Photosynthesis”, “Algebra linear equations”).
 2. **Academico generates**:
 
    * Multiple-choice questions
@@ -89,12 +89,6 @@ src/
 flutter pub get
 flutter run
 ```
-
----
-
-## 🖼️ Preview
-
-*(Add screenshots or logo here)*
 
 ---
 
